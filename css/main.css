@@ -1,0 +1,145 @@
+{box-sizing: border-box;}
+html {font: normal 100%/1.5 'Arial', 'Helvetica', 'Helvetica Neue', sans-serif;}
+
+body {
+    position: relative;
+}
+
+legend {
+    position: absolute;
+    font-size: 2rem;
+    bottom: 29rem;
+    left:2.5rem;
+    border: 1.5px solid #DDD;
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+.box {
+    margin: 0 0 1rem 0;
+}
+
+.box-fm {
+    margin: 0 0 1rem 0;
+}
+
+.box-em {
+    margin: 0 0 1rem 0;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+#name{
+    margin-top: 2.8rem;
+    
+}
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F5F5F5;
+    font-family: 'Arial', 'Helvetica', 'Helvetica Neue', sans-serif;
+    margin: auto;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 2rem;
+    border: 1.5px solid #DDD;
+    max-width: 50rem;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+}
+
+#submit-button {
+    background-color: #6495ED;
+    color: #F5F5F5;
+    border-style: none;
+    width: 23rem;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    margin-top: 2rem;
+    margin-bottom: 0.6rem;
+    
+}
+
+#fname {
+    border: 1.5px solid #DDD;
+    padding: 0.4rem;
+    width: 22rem;
+    display: inline-block;
+    border-radius: 0.2rem; 
+}
+
+#email {
+    border: 1.5px solid #DDD;
+    padding: 0.4rem;
+    width: 22rem;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+#message {
+    border: 1.5px solid #DDD;
+    padding: 2rem;
+    width: 18.8rem;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+/*Tablet View*/
+
+
+/*Desktop View*/
+
+@media only screen and (min-width: 40rem) {
+    
+    
+.box {
+    margin: 0 0 1rem 0;
+}
+
+label {
+    display: block;
+}
+    
+#contact-form {
+    position: relative;
+    max-width: 50rem;
+    margin: auto;
+    margin-top: 4rem; 
+}
+
+legend {
+    left: 14rem; 
+    bottom: 24rem;
+    z-index: 1;
+}
+
+.box-em {
+    position: absolute;
+    right: 2rem;
+    bottom: 16.5rem;
+}
+
+#fname {
+      width: 23.5rem;  
+}
+
+#email {
+    width: 23.5rem;  
+}
+
+#message {
+     width: 45.8rem;   
+}
+    
+#submit-button {
+        width: 8rem; 
+}    
+    
+/*desktop closing bracket*/
+}
